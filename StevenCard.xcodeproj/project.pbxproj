@@ -13,6 +13,8 @@
 		531020DE24D4A58A005DFFC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531020DD24D4A58A005DFFC8 /* Assets.xcassets */; };
 		531020E124D4A58A005DFFC8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 531020E024D4A58A005DFFC8 /* Preview Assets.xcassets */; };
 		531020E424D4A58A005DFFC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 531020E224D4A58A005DFFC8 /* LaunchScreen.storyboard */; };
+		531020ED24D5DF01005DFFC8 /* FredokaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 531020EC24D5DF01005DFFC8 /* FredokaOne-Regular.ttf */; };
+		5344293224D7299300BEEB49 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5344293124D7299300BEEB49 /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		531020E024D4A58A005DFFC8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		531020E324D4A58A005DFFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		531020E524D4A58A005DFFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		531020EC24D5DF01005DFFC8 /* FredokaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "FredokaOne-Regular.ttf"; path = "../../../../../../Downloads/Fredoka_One/FredokaOne-Regular.ttf"; sourceTree = "<group>"; };
+		5344293124D7299300BEEB49 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		531020D624D4A588005DFFC8 /* StevenCard */ = {
 			isa = PBXGroup;
 			children = (
+				531020EB24D5DEEC005DFFC8 /* Fonts */,
 				531020D724D4A588005DFFC8 /* AppDelegate.swift */,
 				531020D924D4A588005DFFC8 /* SceneDelegate.swift */,
 				531020DB24D4A588005DFFC8 /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				531020E224D4A58A005DFFC8 /* LaunchScreen.storyboard */,
 				531020E524D4A58A005DFFC8 /* Info.plist */,
 				531020DF24D4A58A005DFFC8 /* Preview Content */,
+				5344293124D7299300BEEB49 /* InfoView.swift */,
 			);
 			path = StevenCard;
 			sourceTree = "<group>";
@@ -73,6 +79,14 @@
 				531020E024D4A58A005DFFC8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		531020EB24D5DEEC005DFFC8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				531020EC24D5DF01005DFFC8 /* FredokaOne-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +150,7 @@
 				531020E424D4A58A005DFFC8 /* LaunchScreen.storyboard in Resources */,
 				531020E124D4A58A005DFFC8 /* Preview Assets.xcassets in Resources */,
 				531020DE24D4A58A005DFFC8 /* Assets.xcassets in Resources */,
+				531020ED24D5DF01005DFFC8 /* FredokaOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +161,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5344293224D7299300BEEB49 /* InfoView.swift in Sources */,
 				531020D824D4A588005DFFC8 /* AppDelegate.swift in Sources */,
 				531020DA24D4A588005DFFC8 /* SceneDelegate.swift in Sources */,
 				531020DC24D4A588005DFFC8 /* ContentView.swift in Sources */,
